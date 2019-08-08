@@ -2,5 +2,12 @@ server:
  port: 8081
 
 spring:
+ security:
+    user:
+      name: admin  # 认证用户名
+      password: 111222  # 认证密码
+      roles:
+       - USER # 授权角色
  application:
    name: springclouddemo-provider
+
