@@ -6,8 +6,10 @@ spring:
    name: springclouddemo-provider
 
 eureka:
-  client: # 客户端进行Eureka注册的配置
+  client: # 注册服务到Eureka
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:7001/eureka
-
+  instance:
+    instance-id: microcloud-provider-product
+    prefer-ip-address: true
