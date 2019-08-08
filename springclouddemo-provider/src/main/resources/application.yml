@@ -9,9 +9,9 @@ eureka:
   client: # 注册服务到Eureka
     register-with-eureka: true
     service-url:
-      defaultZone: http://admin:111222@localhost:7001/eureka
+      defaultZone: http://admin:111222@eurekaserver1:7001/eureka,http://admin:111222@eurekaserver2:7002/eureka,http://admin:111222@eurekaserver3:7003/eureka
   instance:
-    instance-id: microcloud-provider-product
+    instance-id: springclouddemo-provider
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
     lease-expiration-duration-in-seconds: 5  # 如果现在超过了5秒的间隔（默认是90秒）
