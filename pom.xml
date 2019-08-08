@@ -13,6 +13,7 @@
         <module>springclouddemo-api</module>
         <module>springclouddemo-provider</module>
         <module>springclouddemo-consumer</module>
+        <module>springclouddemo-security</module>
     </modules>
 
     <properties>
@@ -50,6 +51,11 @@
             <dependency>
                 <groupId>study</groupId>
                 <artifactId>springclouddemo-api</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>study</groupId>
+                <artifactId>springclouddemo-security</artifactId>
                 <version>1.0.0</version>
             </dependency>
         </dependencies>
