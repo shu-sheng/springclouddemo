@@ -13,3 +13,9 @@ eureka:
   instance:
     instance-id: microcloud-provider-product
     prefer-ip-address: true
+
+info:
+  app.name: springclouddemo-provider
+  company.name: study
+  build.artifactId: $project.artifactId$
+  build.modelVersion: $project.modelVersion$
