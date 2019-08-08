@@ -14,6 +14,7 @@
         <module>springclouddemo-provider</module>
         <module>springclouddemo-consumer</module>
         <module>springclouddemo-security</module>
+        <module>springclouddemo-eurekaserver</module>
     </modules>
 
     <properties>
