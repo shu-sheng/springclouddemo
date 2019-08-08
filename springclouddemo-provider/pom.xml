@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>study</groupId>
-            <artifactId>springclouddemo-api</artifactId>
+            <artifactId>springclouddemo-pojo</artifactId>
         </dependency>
         <dependency>
             <groupId>study</groupId>
