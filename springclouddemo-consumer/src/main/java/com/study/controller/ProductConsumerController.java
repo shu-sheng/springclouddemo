@@ -15,8 +15,8 @@ import java.util.List;
 @RequestMapping("/consumer")
 public class ProductConsumerController {
 
-    public static final String PRODUCT_GET_URL = "http://localhost:8081/product/get/";
-    public static final String PRODUCT_LIST_URL = "http://localhost:8081/product/list";
+    public static final String PRODUCT_GET_URL = "http://SPRINGCLOUDDEMO-PROVIDER/product/get/";
+    public static final String PRODUCT_LIST_URL = "http://SPRINGCLOUDDEMO-PROVIDER/product/list";
 
     @Resource
     private RestTemplate restTemplate;

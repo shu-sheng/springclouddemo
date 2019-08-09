@@ -1,2 +1,8 @@
 server:
  port: 8082
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+        defaultZone: http://admin:111222@eurekaserver1:7001/eureka,http://admin:111222@eurekaserver2:7002/eureka,http://admin:111222@eurekaserver3:7003/eureka
