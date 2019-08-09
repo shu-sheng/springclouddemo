@@ -11,7 +11,9 @@
 
     <modules>
         <module>springclouddemo-pojo</module>
-        <module>springclouddemo-provider</module>
+        <module>springclouddemo-provider1</module>
+        <module>springclouddemo-provider2</module>
+        <module>springclouddemo-provider3</module>
         <module>springclouddemo-consumer</module>
         <module>springclouddemo-security</module>
         <module>springclouddemo-eurekaserver1</module>

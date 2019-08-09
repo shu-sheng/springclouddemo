@@ -8,7 +8,7 @@ eureka:
     fetch-registry: false # 是否要从Eureka中获取注册信息
     register-with-eureka: false #是否要注册到Eureka
     service-url:
-            defaultZone: http://admin:111222@eurekaserver1:7001/eureka,http://admin:111222@eurekaserver2:7002/eureka,http://admin:111222@eurekaserver3:7003/eureka
+        defaultZone: http://admin:111222@eurekaserver1:7001/eureka,http://admin:111222@eurekaserver2:7002/eureka,http://admin:111222@eurekaserver3:7003/eureka
   instance: # eureka实例定义
     hostname: eurekaserver1 # 定义 Eureka 实例所在的主机名称
 
