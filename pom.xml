@@ -15,6 +15,8 @@
         <module>springclouddemo-provider2</module>
         <module>springclouddemo-provider3</module>
         <module>springclouddemo-consumer</module>
+        <module>springclouddemo-consumer-feign</module>
+        <module>springclouddemo-feign-service</module>
         <module>springclouddemo-security</module>
         <module>springclouddemo-eurekaserver1</module>
         <module>springclouddemo-eurekaserver2</module>

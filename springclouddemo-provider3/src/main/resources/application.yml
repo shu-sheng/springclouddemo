@@ -3,7 +3,7 @@ server:
 
 spring:
  application:
-   name: springclouddemo-provider
+   name: springclouddemo-provider-product
 
 eureka:
   client:
@@ -17,7 +17,7 @@ eureka:
     lease-expiration-duration-in-seconds: 5  # 如果现在超过了5秒的间隔（默认是90秒）
 
 info:
-  app.name: springclouddemo-provider
+  app.name: springclouddemo-provider-product
   company.name: study
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
